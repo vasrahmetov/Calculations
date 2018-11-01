@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Математические приблуды</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="Header">
+		<div class="HeaderText">Этот сайт даст вам решения простых математических задач</div>
+	</div>
+	<div class="mainField">
+		<div class="math">
+			<form action="#" name="factorials">
+				<fieldset class="fieldfield">
+					<legend>В этом окошке вы можете найти факториал числа</legend>
+					<label><span>Введите число</span> <input type="number" name="factorial" class="iskomoe"></label><span>!</span> <input type="button" class="otprav" name="otpravka" value="="> <span class="facresult"></span>
+				</fieldset>
+
+
+			</form>
+			<form name="kvUrav">
+				<fieldset class="fieldsquare">
+					<legend>В этом окошке вы можете найти корни квадратного уравнения, введя его коэффициенты (a, b и c)</legend>
+					<label><input type="number" class="koefA" name="a"><span>X<sup>2</sup> +</span><input type="number" class="coefB" name="b"><span> x +</span><input type="number" name="c" class="koefC"><span> =0</span><br><input type="button" class="searchKorni" value="Найти корни уравнения!">
+
+
+				</fieldset>  
+			</form>
+
+			<form name="stepen">
+				<fieldset class="fieldStepen">
+					<legend>В этом окошке вы можете найти произвольную степень числа</legend>
+					<label><input type="number" class="osnovanie"></label><span>в степени </span><input type="number" class="pokazatel"> <input type="button" class="vichisl" value="=">
+
+
+
+
+				</fieldset>
+			<form name="factorz">
+				<fieldset class="fieldFactorize">
+					<legend>Здесь вы можете разложить число на простые множители</legend>
+					<input type="number" class="razlozhimoe"> <input type="button" class="buttonFctrze" value="Разложить на простые множители!">
+					<br>
+
+
+
+				</fieldset>
+
+
+
+			</form>	
+
+			<form>
+				<fieldset class="fieldNoD">
+					<legend>Здесь вы можете найти наибольший общий делитель двух чисел</legend>
+					<input type="number" class="var1"> <span> и </span><input type="number" class="var2"> <input type="button" class="NoDbutton" value="Найти НоД"> <span class="result1"></span>
+
+					
+
+
+				</fieldset>
+
+
+
+
+			</form>
+
+
+
+
+
+
+
+		</div> 
+	</div>	
+
+<script src="script.js"></script>
+</body>
+</html>
